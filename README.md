@@ -1,4 +1,4 @@
-# Credit-Card-Transactions-Fraud-Detection
+# Credit Card Transactions Fraud Detection
 
 **Data Description**
 
@@ -14,7 +14,7 @@ We created 10 entities by combining fields such as card number, merchant number 
 
 **Modeling**
 
-The train/test split we used is 0.7/0.3 and the OOT (Out-Of-Time) validation dataset is the records of the last two months. We built 9 types of machine learning models (Logistic Regression, Decision Tree, Random Forest, LightGBM, KNN, Neaural Network, Catboost, GBC and SVM) and tuned hyperparameters to optimze model performance. 
+The OOT (Out-Of-Time) validation dataset is the records of the last two months and the train/test split we used is 0.7/0.3 split on the remaining data. We built 9 types of machine learning models (Logistic Regression, Decision Tree, Random Forest, LightGBM, KNN, Neaural Network, Catboost, GBC and SVM) and tuned hyperparameters to optimze model performance. 
 
 **Result**
 
